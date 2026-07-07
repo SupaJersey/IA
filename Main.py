@@ -78,8 +78,6 @@ class Vector2d:
         return f"({self.x}, {self.y})"
 
 
-
-
 def force_resolve(magnitude, angle, in_radians = False):
     if in_radians == False:
         angle = math.radians(angle)
